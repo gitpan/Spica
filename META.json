@@ -68,7 +68,7 @@
    "provides" : {
       "Spica" : {
          "file" : "lib/Spica.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Spica::Client" : {
          "file" : "lib/Spica/Client.pm"
@@ -118,5 +118,5 @@
          "web" : "https://github.com/rymizuki/p5-Spica"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
