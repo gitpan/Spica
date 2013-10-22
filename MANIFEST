@@ -6,6 +6,7 @@ README.md
 cpanfile
 lib/Spica.pm
 lib/Spica/Client.pm
+lib/Spica/Event.pm
 lib/Spica/Filter.pm
 lib/Spica/Parser.pm
 lib/Spica/Parser/JSON.pm
@@ -29,8 +30,10 @@ t/015_columns.t
 t/01_receiver/001_row.t
 t/01_receiver/002_iterator.t
 t/020_uri_maker.t
+t/02_row/001_inflate.t
 t/031_parser_json.t
 t/032_parser_xml.t
+t/040_event.t
 t/Util.pm
 META.yml
 MANIFEST

@@ -29,9 +29,12 @@ no_index:
 provides:
   Spica:
     file: lib/Spica.pm
-    version: 0.02
+    version: 0.03
   Spica::Client:
     file: lib/Spica/Client.pm
+    version: 0
+  Spica::Event:
+    file: lib/Spica/Event.pm
     version: 0
   Spica::Filter:
     file: lib/Spica/Filter.pm
@@ -84,4 +87,4 @@ resources:
   bugtracker: https://github.com/rymizuki/p5-Spica/issues
   homepage: https://github.com/rymizuki/p5-Spica
   repository: git://github.com/rymizuki/p5-Spica.git
-version: 0.02
+version: 0.03
